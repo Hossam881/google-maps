@@ -1,5 +1,5 @@
 export const loadMapApi = () => {
-    const mapsURL = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDl3u4vQK7zGTg-ySKHyCZR6CcSIt7dBVA&libraries=geometry,places&language=en&region=NO&v=quarterly`;
+    const mapsURL = `https://maps.googleapis.com/maps/api/js?key=(enterapi key)libraries=geometry,places&language=en&region=NO&v=quarterly`;
     const scripts = document.getElementsByTagName('script');
     // Go through existing script tags, and return google maps api tag when found.
     for (let i = 0; i < scripts.length; i++) {
